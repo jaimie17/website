@@ -15,6 +15,13 @@ h2 {
     line-height: 1.5;
 }
 
+h3 {
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    text-decoration-thickness: 4px;
+}
+
 .underline {
     text-decoration: underline;
     text-decoration-color: #FFB699;
@@ -25,6 +32,12 @@ h2 {
 
 .underline2 {
     text-decoration-color: #301A4B;
+    text-decoration-style: solid;
+    text-decoration-thickness: 6px;
+}
+
+.block-space {
+	margin-bottom: 3rem;
 }
 
 body {
@@ -32,6 +45,7 @@ body {
     font-family: 'DM Sans', sans-serif;
     margin: 0px;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 section {
@@ -80,7 +94,6 @@ section {
 #pdf {
     box-sizing: border-box;
     border-radius: 25px;
-    padding: 24px;
     max-width: 800px;
     background-color: #ffffff;
     margin: inline; 
@@ -107,12 +120,6 @@ section {
     padding: 10px;
 }
 
-#flex2 {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-}
-
 @media (max-width: 900px) {
     #flex {
         flex-direction: column;
@@ -128,7 +135,7 @@ ul li {
     text-align: center;
 }
 
-input[type=text], select, textarea {
+input[type=text], input[type=email], select, textarea {
     padding: 12px 10px;
     border-radius: 4px;
     box-sizing: border-box;
@@ -358,4 +365,8 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.center-text {
+    text-align: center;
 }

@@ -148,6 +148,10 @@ ul li {
     text-align: center;
 }
 
+ul {
+    list-style-type: none;
+}
+
 input[type=text], input[type=email], select, textarea {
     padding: 12px 10px;
     border-radius: 4px;
@@ -181,6 +185,11 @@ input[type=text], input[type=email], select, textarea {
     box-shadow: inset;
     width: 90px;
     height: 40px;
+}
+
+.sendbutton:hover {
+    background-color: #301A4B;
+    color: #FFB699;
 }
 
 .alignleft {
@@ -221,6 +230,11 @@ a.purplebutton {
     background-color: #301A4B;
     border-radius: 10px;
     cursor: pointer;
+}
+
+a.purplebutton:hover {
+    background-color: #FFB699;
+    color: #301A4B;
 }
 
 html {
@@ -391,4 +405,18 @@ html {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+}
+
+.logo {
+    width: 5%;
+    height: 5%;
+    padding: 5px;
+}
+
+#infovis-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 20px;
 }
